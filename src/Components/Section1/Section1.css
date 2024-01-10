@@ -1,0 +1,135 @@
+.overall{
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    z-index: 100;
+    width: 100%;
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text-vid{
+    position: sticky;
+    display: flex;
+    top: 170px;
+    opacity: 1;
+    transform: 1;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+.handp{
+    flex: 1;
+    max-width: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: Formular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.webh2{
+    font-size: 46px;
+    line-height: 54px;
+    font-family: Syne;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(23, 23, 23);
+    box-sizing: border-box;
+}
+
+.prob{
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 45px;
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(23, 23, 23);
+    box-sizing: border-box;
+}
+.someText{
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 20px;
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(79, 86, 98);
+    box-sizing: border-box;
+}
+
+.vid{
+    width: 100%;
+    flex: 1;
+    max-width: 50%;
+    position: relative;
+    z-index: 100;
+    font-family: Formular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.vide{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    box-sizing: bo;
+}
+
+.apple{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: sticky;
+    top: 20px
+}
+
+.nostick{
+    margin-top: 0px;
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    box-sizing: border-box;
+}
+
+.textpara{
+    max-width: 350px;
+    min-width: 350px;
+    width: 100%;
+    padding-top: 110px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.thih2{
+    font-size: 36px;
+    line-height: 44px;
+    font-family: Syne;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(23, 23, 23);
+}
+
+.thih3{
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 45px;
+    font-family: Formular;
+    font-style: normal;
+    font-weight: 700;
+    color: r;
+}

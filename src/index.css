@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container{
+  width: 100vw;
+  min-height: 100vh;
+  background: rgb(232, 235, 241);
+}
+
+.left{
+  margin-right: 10px;
+}
+.left
+.right{
+  flex: 1;
+}
+.content{
+  display: flex;
+}
+

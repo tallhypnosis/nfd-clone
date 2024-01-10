@@ -1,0 +1,63 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px 7%;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 80px;
+    padding-right: 40px;
+    margin-bottom: 15px;
+}
+body{
+    background-color: #ced8ff;
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.name-logo{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px; 
+}
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    background-color: transparent;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(79, 86, 98);
+    cursor: pointer;
+    position: relative;
+    transition: color 0.5s ease 0s;
+    text-decoration: none;
+    margin: 10px 20px;
+    box-sizing: border-box;
+    /* display: inline-block;
+    margin: 10px 20px;
+    font-size: 18px;
+    cursor: pointer; */
+}
+
+.twitter-logo{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.discord-logo{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
